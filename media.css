@@ -1,0 +1,236 @@
+@media screen and (max-width: 1340px) {
+    .section-mdd__image {
+        display: none;
+    }
+
+    .section-mdd__content {
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .section-why__image {
+        display: none;
+    }
+
+    .hero__content {
+        padding-left: 10px;
+    }
+
+    .section-about__title {
+        padding-left: 10px;
+    }
+
+    .wrapper .section-why__content {
+        /* margin: 0 auto; */
+        /* left: 50%; */
+        top: 50px;
+        /* transform: translateX(-50%); */
+        position: absolute;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-why__title {
+        width: 100%;
+        text-align: center;
+        /* margin-left: 50%;
+        transform: translateX(-50%); */
+    }
+
+    .section-mdd__content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-mdd__text {
+        font-size: 24px;
+    }
+
+    .section-assessment__image {
+        display: none;
+    }
+
+    .section-assessment__wrapper {
+        width: 100%;
+    }
+
+    .wrapper .section-assessment__content {
+        /* left: 50%; */
+        top: 0px;
+        /* left: 50%;
+        transform: translateX(-50%);
+        position: absolute; */
+        width: 100%;
+        /* padding: 10px; */
+    }
+
+    .section-assessment__hero-title {
+        margin-top: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .section-box__block, .section-box2__block {
+        flex-basis: 100%;
+        height: 360px;
+    }
+
+    .section-box2 {
+        margin-top: 0;
+    }
+
+    .title, .title2 {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .section-nutritional__block {
+        width: 100%;
+    }
+
+    .section-nutritional__plans {
+        text-align: center;
+        margin: 0 5px;
+    }
+
+    .section-nutritional__text {
+        margin-top: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 880px) {
+
+    .wrapper {
+        max-width: 720px;
+        /* padding: 10px; */
+        /* border: firebrick 1px solid; */
+    }
+
+
+    .menu__mobile {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        
+    }
+
+    .nav__desktop {
+        display: none;
+    }
+
+    .header-wrapper {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header__logo {
+        margin-right: 25px;
+    }
+
+    .header-link {
+        margin-top: 15px;
+    }
+
+    .main__hero {
+        background: #F4F9E2;
+    }
+
+    .wrapper .hero__content {
+        /* display: block; */
+        width: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        max-width: 100%;
+        padding: 10px;
+        /* height: 460px; */
+    }
+
+    .section-why__content {
+        max-width: 720px;
+    }
+
+    .section-assessment__title, .section-assessment__text, .assessment-link {
+        margin-left: 10px;
+    }
+
+
+    .hero__buttons-block {
+        width: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero__buttons-block_color {
+        width: 100%;
+    }
+
+    .section-about__title {
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .section-about__content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* Для подвала */
+
+    .footer__image {
+        display: none;
+    }
+
+    .copyright {
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .wrapper .section-why__content {
+        top: 0;
+    }
+
+    .section-assessment__hero-title {
+        font-size: 48px;
+    }
+
+    .section-assessment__text {
+        font-size: 24px;
+    }
+
+
+    .footer-contacts__item {
+        width: 100%;
+        text-align: center;
+        /* padding-left: 100px;
+        padding-right: 80px;
+         */
+    }
+
+    .footer-contacts__title {
+        margin-top: 15px;
+    }
+
+    .footer-contacts__text:nth-of-type(1) {
+        margin-top: 10px;
+    }
+
+    .footer-contacts__value {
+        margin-top: 10px;
+    }
+
+    .footer-contacts {
+        flex-direction: column;
+    }
+}
